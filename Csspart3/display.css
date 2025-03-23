@@ -1,0 +1,23 @@
+h2{
+    display: inline;
+    background-color: pink;
+}
+
+span{
+   /*display: block;
+    background-color: yellowgreen;
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;*/
+    
+}
+
+div{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    }
+

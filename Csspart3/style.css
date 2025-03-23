@@ -1,0 +1,34 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    /*border-width: 5px;
+    border-style: solid;
+    border-color: black;*/
+    border: 2px solid black;
+    border-left-color: red;
+    border-left-style: dashed;
+    border-right-color: blue;
+    border-right-style: dotted;
+    border-top: 5px dashed green;
+    border-bottom: 5px dashed green;
+    /*border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;*/
+    /*padding: 50px; for all sides*/
+    /*padding: 10px 20px;*/
+    padding: 5px 15px 3px;
+    margin: 20px 30px 25px 50px;
+}
+h1{
+    /*border-width: 2px;
+    border-style: dashed;
+    border-color: green;*/
+    border: 2px dashed purple;
+}
+button{
+    /*padding: 5px 10px 3px 15px;*/
+    padding: 0px 30px 0px 30px;
+    background-color: yellow;
+}
