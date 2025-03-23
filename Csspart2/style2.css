@@ -1,0 +1,16 @@
+h3{
+    background-color: green;
+}
+div{
+    background-color: orange;
+}
+
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
+button:hover{
+    background-color: red;
+}
