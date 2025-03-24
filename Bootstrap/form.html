@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" 
+    />
+</head>
+<body>
+    <div class="container">
+        <h2>Form Demo</h2>
+        <form class="mb-3">
+
+    <div class="row">      
+        <div class="mb-3 col-md-6">
+            <label class="form-label" for="email">Email</label>
+            <input type="text" 
+            class="form-control" 
+            placeholder="Email" 
+            id="email"
+            />
+        </div>
+
+        <div class="mb-3 col-md-6">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" 
+            class="form-control" 
+            placeholder="password" 
+            id="password"
+            />
+        </div>
+    </div>  
+
+            <label class="form-label mb-3" for="address">Address</label>
+            <input type="text" 
+            class="form-control-lg" 
+            placeholder="address" 
+            id="address"
+            />
+
+        <div class="mb-3">
+            <select class="form-select">
+                <option selected>Choose your city</option>
+                <option value="1">Mumbai</option>
+                <option value="2">Delhi</option>
+                <option value="3">Bengaluru</option>
+                <option value="4">Kolkata</option>
+            </select>
+        </div>
+
+        <div class="normal mb-3">
+            <label for="agree">Agree</label>
+            <input type="checkbox" id="agree">
+        </div>
+
+        <div class="mb-3 form-check">
+            <input type="checkbox" id="agreebs" class="form-check-input" />
+            <label for="agreebs" class="form-check-label">Agree</label>
+        </div>
+
+        <div class="mb-3 form-check">
+            <input type="radio" id="radiobs" class="form-check-input" />
+            <label for="radiobs" class="form-check-label">Yes/No</label>
+
+        </div>
+
+        <div class="form-check form-switch mb-3">
+            <input 
+            type="checkbox"
+            class="form-check-input"
+            role="switch"
+            id="flexSwitchCheckDefault"
+            />
+            <label class="form-check-label" for="flexSwitchCheckDefault">
+                Default switch checkbox input</label>
+
+        </div>
+
+
+        </form>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
