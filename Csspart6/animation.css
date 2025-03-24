@@ -1,0 +1,61 @@
+.box {
+    height: 150px;
+    width: 350px;
+    background-color: orangered;
+    
+    /*animation-name: widthAnimate;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    
+    animation: colAnimate 5s ease-out 0s 3 normal;
+
+}
+
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 55px;
+    }
+}
+
+@keyframes colorAnimate {
+    form {
+        background-color: greenyellow;
+    }
+    to{
+        background-color: rgb(182, 173, 230);
+    }
+    
+}
+
+@keyframes widthAnimate {
+    from {
+        width: 15px;
+        background-color: green;
+    }
+    to {
+        width: 400px;
+        background-color: orange;
+        border-radius: 20px;
+    }
+}
+
+@keyframes colAnimate {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: yellow;
+    }
+    80% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
